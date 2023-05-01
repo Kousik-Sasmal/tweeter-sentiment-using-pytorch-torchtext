@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import torchtext
 import zipfile
 import pathlib 
 from pathlib import Path
@@ -50,4 +49,3 @@ df_valid["label"] = df_valid["sentiment"].cat.codes
 valid_cleaned_path = data_path / "valid_cleaned.csv"
 
 df_valid[['tweet', 'sentiment', 'label']].to_csv(valid_cleaned_path, index=False)
-

@@ -13,3 +13,8 @@ Skill Used:
 5) Regularization
 6) Modular coding approach
 7) Streamlit
+
+
+
+[<img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Google Colab" width="100" height="100">](https://colab.research.google.com/drive/1TngXrAjhOLJXunNlsO4LR7TkMbunwRZF?usp=sharing)
+

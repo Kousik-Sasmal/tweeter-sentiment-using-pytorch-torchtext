@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/kousik/ABC_OTHERS/campusx/nlp_movie_data/experiment_with_PyTorch (copy)/src')
+sys.path.append('/home/kousik/ABC_OTHERS/campusx/nlp_movie_data/experiment_with_PyTorch_modular/src')
 from model import LSTM2Classify
 
 import streamlit as st

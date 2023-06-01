@@ -27,8 +27,8 @@ df = pd.read_csv('artifacts/train_cleaned.csv')
 df_valid = pd.read_csv('artifacts/valid_cleaned.csv')
 
 # limit df
-# df = df[:10000]
-# df_valid = df_valid[:1000]
+#df = df[:10000]
+#df_valid = df_valid[:1000]
 
 
 # creating vocabulary   
@@ -36,9 +36,9 @@ tokenizer = get_tokenizer("spacy")
 
 def yield_tokens(data_iter):
     for text in data_iter:
-        text = text.lower()
-        
+        text = text.lower()       
         yield tokenizer(text)
+
 token_generator = yield_tokens(df['tweet'])
         
 vocab = build_vocab_from_iterator(token_generator, specials=["<UNK>"],max_tokens=config.VOCAB_SIZE)
@@ -91,7 +91,6 @@ def train(model,loss_fn,optimizer):
             
             # Save the model
             torch.save(model.state_dict(), 'artifacts/best_model.pth')
-
 
     print(f"Best accuracy: {best_accuracy} at epoch: {best_epoch}")
 

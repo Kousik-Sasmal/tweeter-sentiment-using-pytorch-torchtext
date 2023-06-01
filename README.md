@@ -15,8 +15,9 @@ Skill Used:
 7) Streamlit
 
 
-Google Colab notebook link for this repository 
 [<img src="https://colab.research.google.com/img/colab_favicon_256px.png" alt="Google Colab" width="50" height="50">](https://colab.research.google.com/drive/1TngXrAjhOLJXunNlsO4LR7TkMbunwRZF?usp=sharing)
+Google Colab notebook link for this repository 
+
 
 
 
